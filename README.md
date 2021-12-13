@@ -1,0 +1,1 @@
+# a_smo_pro.uz
