@@ -2,11 +2,7 @@ from django.db import models
 
 class Service(models.Model):
     name = models.CharField(max_length = 200)
-    definition1 = models.TextField(blank = True)
-    definition2 = models.TextField(blank = True)
-    definition3 = models.TextField(blank = True)
-    definition4 = models.TextField(blank = True)
-    definition5 = models.TextField(blank = True)
+    definition = models.TextField(blank = True)
     image = models.ImageField(blank = True)
 
 
